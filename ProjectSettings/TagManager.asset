@@ -11,8 +11,8 @@ TagManager:
   - RenderOnTop
   - Water
   - UI
-  - 
-  - 
+  - FrontBase
+  - Stencil_Layer_1
   - Restricted
   - Player
   - Grabbable

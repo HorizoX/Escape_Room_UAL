@@ -38,10 +38,94 @@ MonoBehaviour:
       failOperation: 0
       zFailOperation: 0
     cameraSettings:
-      overrideCamera: 0
+      overrideCamera: 1
       restoreCamera: 1
       offset: {x: 0, y: 0, z: 0, w: 0}
       cameraFieldOfView: 31
+--- !u!114 &-6573093414396268704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: RenderObjects
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    passTag: RenderObjects
+    Event: 400
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 1
+      PassNames: []
+    overrideMaterial: {fileID: 0}
+    overrideMaterialPassIndex: 0
+    overrideShader: {fileID: 0}
+    overrideShaderPassIndex: 0
+    overrideMode: 1
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 1
+      stencilReference: 2
+      stencilCompareFunction: 3
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 1
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 50.1
+--- !u!114 &-3100232278402045491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: RenderObjects
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    passTag: RenderObjects
+    Event: 500
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 1
+      PassNames: []
+    overrideMaterial: {fileID: 0}
+    overrideMaterialPassIndex: 0
+    overrideShader: {fileID: 0}
+    overrideShaderPassIndex: 0
+    overrideMode: 1
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 1
+      stencilReference: 2
+      stencilCompareFunction: 6
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 0
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 60
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,7 +176,7 @@ MonoBehaviour:
   m_Active: 1
   settings:
     passTag: Stencil Layer Object 1
-    Event: 300
+    Event: 450
     filterSettings:
       RenderQueueType: 0
       LayerMask:
@@ -115,10 +199,10 @@ MonoBehaviour:
       failOperation: 0
       zFailOperation: 0
     cameraSettings:
-      overrideCamera: 0
+      overrideCamera: 1
       restoreCamera: 1
       offset: {x: 0, y: 0, z: 0, w: 0}
-      cameraFieldOfView: 60
+      cameraFieldOfView: 50
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +223,9 @@ MonoBehaviour:
   - {fileID: 6727521624029357848}
   - {fileID: -9217105078183182972}
   - {fileID: -475844099778770010}
-  m_RendererFeatureMap: adc0de57c6d2eee5186707eb45f55c5d843d7105c4431680a68b38f84f7665f9
+  - {fileID: -6573093414396268704}
+  - {fileID: -3100232278402045491}
+  m_RendererFeatureMap: adc0de57c6d2eee5186707eb45f55c5d843d7105c4431680a68b38f84f7665f9606f73875daec7a4cd69a5242bc3f9d4
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -162,10 +248,10 @@ MonoBehaviour:
   m_AssetVersion: 2
   m_OpaqueLayerMask:
     serializedVersion: 2
-    m_Bits: 1845
+    m_Bits: 1852
   m_TransparentLayerMask:
     serializedVersion: 2
-    m_Bits: 1847
+    m_Bits: 2147483647
   m_DefaultStencilState:
     overrideStencilState: 0
     stencilReference: 0
@@ -191,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
   m_Name: Mirror
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     passTag: Mirror
     Event: 300

@@ -12,7 +12,14 @@ public class ItemRespawn : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Respawn"))
         {
+            Debug.Log("Respawn");
             Cube.transform.position = RespawnPoint.transform.position;
+            Rigidbody Cube_RB = Cube.GetComponent<Rigidbody>();
+            if (Cube_RB != null)
+            {
+                Cube_RB.velocity = Vector3.zero;
+                Cube_RB.angularVelocity = Vector3.zero;
+            }
         }
     }
 }

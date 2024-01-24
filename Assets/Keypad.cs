@@ -42,7 +42,7 @@ public class Keypad : MonoBehaviour
             if (Ans.text == Answer)
             {
                 print("Correct");
-                K_State = "Unlock";
+                K_State = "Success";
                 Ans.text = "" + K_State;
                 New_BT.SetActive(true);
             }
@@ -67,7 +67,7 @@ public class Keypad : MonoBehaviour
     {
         if (K_State == "Lock")
         {
-            if (Input > 4)
+            if (Input > 6)
             {
                 Input = 0;
                 Ans.text = "";  //reset to nothing

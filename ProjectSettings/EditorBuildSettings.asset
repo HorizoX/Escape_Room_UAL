@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/BNG Framework/Scenes/XR Demo.unity
     guid: a1360534006d3f845bc79b46b93cfec5
   - enabled: 0
@@ -23,15 +23,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/BNG Framework/Scenes/Quest Demo.unity
     guid: eac0312c32df12949a47d07747a9d1cd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Interaction Blacksmith/Blacksmith.unity
     guid: a5613e65854b762489b64d359e1933df
   - enabled: 1
-    path: Assets/Escape Room/Scenes/World_Making/Level_2.unity
-    guid: ba66db3ff912d5546ac24a4d4b6011e6
-  - enabled: 1
     path: Assets/Escape Room/Scenes/World_Making/Level_1.unity
     guid: 25d09a9db4a24794eb58c0b0df240ba2
+  - enabled: 1
+    path: Assets/Escape Room/Scenes/World_Making/Level_2.unity
+    guid: ba66db3ff912d5546ac24a4d4b6011e6
   - enabled: 1
     path: Assets/Escape Room/Scenes/World_Making/Level_3.unity
     guid: 97086a39eab310945b313b0d60f02b73

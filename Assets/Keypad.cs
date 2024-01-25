@@ -67,7 +67,7 @@ public class Keypad : MonoBehaviour
     {
         if (K_State == "Lock")
         {
-            if (Input > 6)
+            if (Input > 8)
             {
                 Input = 0;
                 Ans.text = "";  //reset to nothing
